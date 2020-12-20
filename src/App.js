@@ -41,7 +41,12 @@ export default function App() {
               <div className="info">
                 <p>{food.name}</p>
                 <p>{food.Location}</p>
-                <p>⭐: {food.Rating}</p>
+                <p>
+                  <span role="img" aria-labelledby="1">
+                    ⭐:
+                  </span>{" "}
+                  {food.Rating}
+                </p>
                 <br />
               </div>
               <br />
