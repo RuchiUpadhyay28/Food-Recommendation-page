@@ -1,4 +1,56 @@
 .App {
-  font-family: sans-serif;
+  font-family: sans-serif, cursive;
   text-align: center;
+  background-color: #dfc07e;
+}
+
+section ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0;
+  border-bottom: 1px solid gray;
+  padding-bottom: 1rem;
+}
+
+section ul li {
+  list-style: none;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  align-content: center;
+  background-color: #660b38;
+  color: white;
+  padding: 0.5rem 0.8rem;
+  border-radius: 1rem;
+  font-size: 1.3rem;
+  cursor: pointer;
+  font-family: cursive;
+  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2);
+}
+
+section ul li::selection {
+  color: black;
+}
+
+.image {
+  margin-top: 2rem;
+  height: 80%;
+  width: 30rem;
+  border-radius: 5px;
+}
+
+.info {
+  height: 100%;
+  width: auto;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  padding-left: 1rem;
+  color: white;
+  font-family: "Satisfy", cursive;
+  font-size: 1.5rem;
+}
+
+.nameCard {
+  background-color: black;
+  margin: 2rem 8rem 5rem 8rem;
 }
