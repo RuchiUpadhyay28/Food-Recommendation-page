@@ -9,10 +9,6 @@ export default function App() {
 
   function clickHandler(cuisine) {
     setCuisine(cuisine);
-    return {
-      bgColor: "black"
-    };
-    console.log(cuisine);
   }
 
   return (
